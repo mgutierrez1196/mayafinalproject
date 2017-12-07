@@ -1,0 +1,39 @@
+
+.pricing-table {
+  background-color: white;
+  border: solid 1px black;
+  width: 50%;
+  text-align: center;
+  list-style-type: none;
+  margin: auto
+}
+
+.pricing-table li {
+  border-bottom: dotted 1px black;
+  padding: 0.875rem 1.125rem;
+}
+
+.pricing-table li:last-child {
+  border-bottom: 0;
+}
+
+.pricing-table .title {
+  background-color: #0a0a0a;
+  color: #fefefe;
+  border-bottom: 0;
+}
+
+.pricing-table .price {
+  background-color: #ffff;
+  font-size: 2rem;
+  border-bottom: 0;
+}
+
+.pricing-table .description {
+  color: black;
+  font-size: 80%;
+}
+
+.pricing-table :last-child {
+  margin-bottom: 0;
+}
